@@ -1,0 +1,10 @@
+matplotlib==3.7.2
+numpy==1.23.5
+pandas==2.0.2
+seaborn==0.12.2
+sklearn-pandas==2.2.0
+tensorflow==2.12.0
+torch==2.0.0
+transformers==4.32.1
+umap-learn==0.5.3
+xgboost==1.7.6
