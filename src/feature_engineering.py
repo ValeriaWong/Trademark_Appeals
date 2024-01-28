@@ -1,35 +1,35 @@
 import pandas as pd
-
+import numpy as np
 
 def load_data():
     """
     Load the dataset
     :return: dataframe
     """
-    file_path = 'your_file_path'
+    file_path = 'D:\\workspace\\Trademark_Appeals\\source_dataset\\extracted__v10.xlsx'
     data = pd.read_excel(file_path, sheet_name='Sheet1')  
     
      
     column_names = {
-    'brandName': 'brandName',
-    'ID': 'ID',
-    'content': 'content',
-    'cited_brand_number': 'cited_brand_number',
-    'cited_brand_name': 'cited_brand_name',
-    'rejection_result': 'rejection_result',
-    'legal_basis': 'legal_basis',
-    'rejected_goods': 'rejected_goods',
-    'passed_goods': 'passed_goods',
-    '评审文书号': 'review_document_number',
-    '申请人': 'applicant',
-    '委托代理人': 'authorized_agent',
-    '申请人复审的主要理由': 'main_reason_for_review_by_applicant',
-    '申请人在复审程序中提交': 'submissions_in_review_procedure',
-    '经审理查明': 'findings_after_review',
-    '使用法条': 'legal_articles_used',
-    '驳回复审结果': 'review_rejection_result',
-    '裁定日期': 'ruling_date'
-}
+        'brandName': 'brandName',
+        'ID': 'ID',
+        'content': 'content',
+        'cited_brand_number': 'cited_brand_number',
+        'cited_brand_name': 'cited_brand_name',
+        'rejection_result': 'rejection_result',
+        'legal_basis': 'legal_basis',
+        'rejected_goods': 'rejected_goods',
+        'passed_goods': 'passed_goods',
+        '评审文书号': 'review_document_number',
+        '申请人': 'applicant',
+        '委托代理人': 'authorized_agent',
+        '申请人复审的主要理由': 'main_reason_for_review_by_applicant',
+        '申请人在复审程序中提交': 'submissions_in_review_procedure',
+        '经审理查明': 'findings_after_review',
+        '使用法条': 'legal_articles_used',
+        '驳回复审结果': 'review_rejection_result',
+        '裁定日期': 'ruling_date'
+    }
 
     # Rename the columns in the dataframe
     data = data.rename(columns=column_names)

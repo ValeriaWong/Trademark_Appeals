@@ -1,10 +1,10 @@
 import pandas as pd
 from xgboost import XGBClassifier
-import src.feature_engineering as feature_engineering
-from src.mi_analysis import MiScores
-from src.data_preprocessor import DataPreprocessor
-from src.model_manager import ModelManager
-from src.model_eval import ModelEvaluator
+import feature_engineering as feature_engineering
+from mi_analysis import MiScores
+from data_preprocessor import DataPreprocessor
+from model_manager import ModelManager
+from model_eval import ModelEvaluator
 
 def main():
     try:

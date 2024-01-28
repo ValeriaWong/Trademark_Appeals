@@ -27,7 +27,7 @@ class MiScores:
 
         # Encode the categorical columns
         for colname in X.select_dtypes("object"):
-            X[colname], _ = X[colname].factorize()
+            X.loc[:, colname] = X[colname].factorize()[0]
 
         mi_scores = self.make_mi_scores(X, y, discrete_features)
         plt.figure(dpi=100, figsize=(10, 6))

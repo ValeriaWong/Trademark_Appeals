@@ -8,3 +8,4 @@ torch==2.0.0
 transformers==4.32.1
 umap-learn==0.5.3
 xgboost==1.7.6
+openpyxl
