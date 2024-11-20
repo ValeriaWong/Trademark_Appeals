@@ -24,10 +24,16 @@ you can fork and running the raw code directly on [kaggle](https://www.kaggle.co
 If you find this work useful for your research and applications, please cite using this BibTeX:
 
 ```
-@inproceedings{wang2024trademarkappeals,
+@incollection{wang2024trademarkappeals,
     title={Intelligent Forecasting of Trademark Registration Appeal with TF-IDF and XGBoost},
-    author={Qun Wang, ShuHao Qian, JiaHuan Yan, Hao Wang, XiaoTao Guo},
-    booktitle={IC2023},
-    year={2024}
+    author={Wang, Qun and Qian, ShuHao and Yan, JiaHuan and Wang, Hao and Guo, XiaoTao},
+    editor={Cruz, Carlos and Zhang, Yong and Gao, Wen},
+    booktitle={Intelligent Computers, Algorithms, and Applications},
+    series={Communications in Computer and Information Science},
+    volume={2036},
+    pages={343--355},
+    publisher={Springer, Singapore},
+    year={2024},
+    doi={10.1007/978-981-97-0065-3_25}
 }
 ```
