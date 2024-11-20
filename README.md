@@ -2,7 +2,7 @@
 # Trademark_Appeals
 TF-IDF &amp; XGBoost for Trademark Appeals
 
-This is a python code for the paper "Intelligent Forecasting of Trademark Registration Appeal with TF-IDF and XGBoost"
+This is a python code for the paper ["Intelligent Forecasting of Trademark Registration Appeal with TF-IDF and XGBoost"](https://doi.org/10.1007/978-981-97-0065-3_25)
 
 If you want to run the code, you need to install the packages by running:
 
